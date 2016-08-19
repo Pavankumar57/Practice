@@ -1,16 +1,39 @@
 #section1{
-	height : 500px;
 	padding-top:50px;
 }
 #section2{
-	height : 500px;
+	background-image : url("../images/slide_2.jpg");
 	padding-top:50px;
+	height: 80%;
 }
 #section3{
-	height : 500px;
+	height : 1600px;
 	padding-top:50px;
 }
 #section4{
 	height : 500px;
 	padding-top:50px;
+}
+#section31{
+	height : 500px;
+	padding-top:50px;
+}
+#section32{
+	height : 500px;
+	padding-top:50px;
+}
+#section33{
+	height : 500px;
+	padding-top:50px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  padding-left: 10%;
+	  padding-right: 10%;
+      margin: auto;
+  }
+  
+.carousel-indicators li {
+    color: red;
 }
